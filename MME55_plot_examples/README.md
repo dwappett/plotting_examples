@@ -2,16 +2,21 @@
 
 Run ProcessData.m to import all data from MME55_data.xlsx and process it correctly, and add the subfolders to path
 
-## External functions needed:
+### External functions needed:
+
 - [boxplot_custom](https://www.mathworks.com/matlabcentral/fileexchange/87734-boxplots-custom)
 - [linspecer](https://www.mathworks.com/matlabcentral/fileexchange/42673-beautiful-and-distinguishable-line-colors-colormap)
 - [padcat](https://www.mathworks.com/matlabcentral/fileexchange/22909-padcat)
 - [Violin and violinplot](https://github.com/bastibe/Violinplot-Matlab)
 
-## My custom functions needed:
+### My custom functions needed:
+
 - xdevs/xnames/xstats: extract subsets of deviations/functional names/stats (specific to this data set but could be modified)
 - textab: general function for writing latex tables from matlab tables/arrays
 
+### SetPlotDefaults
+
+SetPlotDefaults is a simple script that sets up a structure of axes properties like font size, font weight, grids, etc. so these things can be kept consistent between figures with only a simple "set(gca,SetPlotDefaults)" command.
 
 # Examples
 
