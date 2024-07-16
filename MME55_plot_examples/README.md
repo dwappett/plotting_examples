@@ -9,7 +9,7 @@ Run ProcessData.m to import all data from MME55_data.xlsx and process it correct
 - [padcat](https://www.mathworks.com/matlabcentral/fileexchange/22909-padcat)
 - [Violin and violinplot](https://github.com/bastibe/Violinplot-Matlab)
 
-### My custom functions needed:
+### My custom functions included:
 
 - xdevs/xnames/xstats: extract subsets of deviations/functional names/stats (specific to this data set but could be modified)
 - textab: general function for writing latex tables from matlab tables/arrays
