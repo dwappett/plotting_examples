@@ -16,7 +16,7 @@ Run ProcessData.m to import all data from MME55_data.xlsx and process it correct
 
 ### SetPlotDefaults
 
-SetPlotDefaults is a simple script that sets up a structure of axes properties like font size, font weight, grids, etc. so these things can be kept consistent between figures with only a simple "set(gca,SetPlotDefaults)" command.
+SetPlotDefaults is a simple script that sets up a structure (PlotSettings) of axes properties like font size, font weight, grids, etc. so these things can be kept consistent between figures with only a simple "set(gca,PlotSettings)" command.
 
 # Examples
 
